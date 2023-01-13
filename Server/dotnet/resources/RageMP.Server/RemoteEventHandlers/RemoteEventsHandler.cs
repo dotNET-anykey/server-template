@@ -1,6 +1,6 @@
 ﻿using GTANetworkAPI;
 
-namespace Server.RemoteEventHandlers
+namespace RageMP.Server.RemoteEventHandlers
 {
     public class RemoteEventsHandler : Script
     {

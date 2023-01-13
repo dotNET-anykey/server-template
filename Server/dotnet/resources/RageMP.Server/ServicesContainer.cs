@@ -1,13 +1,13 @@
-﻿using Infrastructure;
-using Infrastructure.Repositories;
-using Infrastructure.Repositories.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Server.Services;
-using Server.Services.Interfaces;
+using RageMP.Infrastructure;
+using RageMP.Infrastructure.Repositories;
+using RageMP.Infrastructure.Repositories.Interfaces;
+using RageMP.Server.Services;
+using RageMP.Server.Services.Interfaces;
 
-namespace Server
+namespace RageMP.Server
 {
     public static class ServicesContainer
     {

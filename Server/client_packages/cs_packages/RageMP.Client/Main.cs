@@ -1,13 +1,12 @@
-﻿using Client.Scripts;
-using RAGE;
+﻿using RageMP.Client.Scripts;
 
-namespace Client
+namespace RageMP.Client
 {
-    public class Main : Events.Script
+    public class Main : RAGE.Events.Script
     {
         public Main()
         {
-            Events.OnPlayerReady += OnPlayerReady;
+            RAGE.Events.OnPlayerReady += OnPlayerReady;
         }
 
         private void OnPlayerReady()

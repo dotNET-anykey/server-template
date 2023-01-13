@@ -1,6 +1,6 @@
 ﻿using GTANetworkAPI;
 
-namespace Domain.Models
+namespace RageMP.Domain.Models
 {
     public class PlayerModel : Player
     {

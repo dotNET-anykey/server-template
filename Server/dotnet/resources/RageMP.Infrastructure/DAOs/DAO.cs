@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.DAOs
+﻿namespace RageMP.Infrastructure.DAOs
 {
     public class DAO
     {

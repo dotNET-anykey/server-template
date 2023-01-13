@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Repositories.Interfaces
+﻿namespace RageMP.Infrastructure.Repositories.Interfaces
 {
     public interface IRepository
     {

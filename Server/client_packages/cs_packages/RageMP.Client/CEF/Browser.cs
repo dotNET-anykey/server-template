@@ -1,6 +1,6 @@
 ﻿using RAGE.Ui;
 
-namespace Client.CEF
+namespace RageMP.Client.CEF
 {
     public static class Browser
     {

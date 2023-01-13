@@ -1,4 +1,4 @@
-﻿namespace Client.Scripts
+﻿namespace RageMP.Client.Scripts
 {
     public static class Script
     {

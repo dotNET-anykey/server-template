@@ -1,6 +1,6 @@
-﻿using Infrastructure.Repositories.Interfaces;
+﻿using RageMP.Infrastructure.Repositories.Interfaces;
 
-namespace Infrastructure.Repositories
+namespace RageMP.Infrastructure.Repositories
 {
     public class Repository : IRepository
     {

@@ -1,8 +1,8 @@
-﻿using Infrastructure.Repositories.Interfaces;
-using Microsoft.Extensions.DependencyInjection;
-using Server.Services.Interfaces;
+﻿using Microsoft.Extensions.DependencyInjection;
+using RageMP.Infrastructure.Repositories.Interfaces;
+using RageMP.Server.Services.Interfaces;
 
-namespace Server.Services
+namespace RageMP.Server.Services
 {
     public class Service : IService
     {

@@ -1,4 +1,4 @@
-﻿namespace Shared.Events
+﻿namespace RageMP.Server.Events
 {
     public static class EventNames
     {

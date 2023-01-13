@@ -1,8 +1,8 @@
-﻿using Domain.Models;
-using GTANetworkAPI;
+﻿using GTANetworkAPI;
 using RAGE;
+using RageMP.Domain.Models;
 
-namespace Server.ServerEventHandlers
+namespace RageMP.Server.ServerEventHandlers
 {
     public class ResourceStart : Script
     {

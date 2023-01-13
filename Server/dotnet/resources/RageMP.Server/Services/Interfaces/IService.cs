@@ -1,4 +1,4 @@
-﻿namespace Server.Services.Interfaces
+﻿namespace RageMP.Server.Services.Interfaces
 {
     public interface IService
     {
