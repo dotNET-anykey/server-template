@@ -1,0 +1,56 @@
+Initializing Bootstrapper.dll (1.1.0.0)..
+-> SERVER STARTED AT 13.01.2023 16:00:46
+Unable to load acl.xml
+Loaded 667 entries from vehicleData.json
+Loading resources..
+-> Starting Server resource..
+Server: loading scripts.. found 1 script(s)
+Server: instantiating Server.ServerEventHandlers.ResourceStart..
+Server: instantiating Server.RemoteEventHandlers.RemoteEventsHandler..
+Server: loading server events.. found 1 server event(s)
+Server: loaded 1 server events(s)
+-> Error starting 'Server'
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: The entity type 'DAO' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at void Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger<Validation> logger)
+   at void Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger<Validation> logger)
+   at void Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger<Validation> logger)
+   at void Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlModelValidator.Validate(IModel model, IDiagnosticsLogger<Validation> logger)
+   at IModel Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, bool designTime, IDiagnosticsLogger<Validation> validationLogger)
+   at IModel Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, bool designTime)
+   at IModel Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(bool designTime)
+   at IModel Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at EntityFrameworkServicesBuilder Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.TryAddCoreServices()+(IServiceProvider p) => { } [4]
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at TResult Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor<TArgument, TResult>.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at object Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Func<ServiceProviderEngineScope, object> Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.RealizeService(ServiceCallSite callSite)+(ServiceProviderEngineScope scope) => { } [0]
+   at object Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(T
