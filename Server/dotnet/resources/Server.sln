@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{2288A48D-5BB9-4905-A1F6-7AA828B8E5B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{6705AB2C-9EDA-4668-851D-DD93E3986263}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{F526CFA4-E630-4E7B-994A-783F698B895B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "..\..\client_packages\cs_packages\Client\Client.csproj", "{18734BD1-82CC-4A82-B615-BF174AF26A28}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "..\..\client_packages\cs_packages\Shared\Shared.shproj", "{96B2BD24-2A9A-4977-A1CA-D03A8EDE0327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2288A48D-5BB9-4905-A1F6-7AA828B8E5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2288A48D-5BB9-4905-A1F6-7AA828B8E5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6705AB2C-9EDA-4668-851D-DD93E3986263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6705AB2C-9EDA-4668-851D-DD93E3986263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F526CFA4-E630-4E7B-994A-783F698B895B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F526CFA4-E630-4E7B-994A-783F698B895B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18734BD1-82CC-4A82-B615-BF174AF26A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18734BD1-82CC-4A82-B615-BF174AF26A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {415947D8-77D0-48FA-B87D-08F57A7F9254}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\client_packages\cs_packages\Shared\Shared.projitems*{18734bd1-82cc-4a82-b615-bf174af26a28}*SharedItemsImports = 5
+		..\..\client_packages\cs_packages\Shared\Shared.projitems*{2288a48d-5bb9-4905-a1f6-7aa828b8e5b9}*SharedItemsImports = 5
+		..\..\client_packages\cs_packages\Shared\Shared.projitems*{96b2bd24-2a9a-4977-a1ca-d03a8ede0327}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
